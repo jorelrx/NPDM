@@ -15,22 +15,22 @@
         <section>
             <h2>Exemplos para avaliação</h2>
             <div>
-                <section class="card">
+                <section class="card" onclick="Ancora(1)">
                     <h3>Aula sobre frações</h3>
                 </section>
-                <section class="card">
+                <section class="card" onclick="Ancora(2)">
                     <h3>Atividade com Ângulos</h3>
                 </section>
-                <section class="card">
+                <section class="card" onclick="Ancora(3)">
                     <h3>Eixo numérico</h3>
                 </section>
-                <section class="card">
+                <section class="card" onclick="Ancora(4)">
                     <h3>Expressões Algébricas I</h3>
                 </section>
-                <section class="card">
+                <section class="card" onclick="Ancora(5)">
                     <h3>Expressões Algébricas II</h3>
                 </section>
-                <section class="card">
+                <section class="card" onclick="Ancora(6)">
                     <h3>Aulas de Física em Libras</h3>
                 </section>
             </div>
@@ -38,14 +38,12 @@
         <section>
             <h2>Projetos associados</h2>
             <div>
-                <section class="card">
+                <section class="card" onclick="Ancora(11)">
                     <h3>Física Invertida</h3>
                 </section>
-                <section class="card">
+                <section class="card" onclick="Ancora(12)">
                     <h3>Koala</h3>
-                </section>
-                <section class="card">
-                    <h3>PSlibrary</h3>
+                    <p>Koala bla bla</p>
                 </section>
             </div>
         </section>
@@ -61,9 +59,10 @@
 
         <div class="sobre">
             <h3>SOBRE OS PROJETOS</h3>
-            <p>Somos uma equipe professores, servidores e alunos do IFRN, trabalhando na produção de 
-                material didático digital, em uma perspectiva inclusiva, versando sobre matemática básica 
-                e ciências, com ênfase no letramento científico e tecnológico de nossas crianças e jovens... 
+            <p>
+                Somos uma equipe de professores, servidores e alunos do IFRN, trabalhando na produção de material didático digital, 
+                em uma perspectiva inclusiva, versando sobre matemática básica e ciências, com ênfase no letramento científico e 
+                tecnológico para todas as idades, principalmente para nossos alunos jovens... 
                 <a href="indexProjetos.html">MAIS INFORMAÇÕES.</a>
             </p>
         </div>
@@ -77,13 +76,15 @@
         </div>
     </footer>
     <script>
-        // function Ancora(a)
-        // {
-        //     if (a == 1) { window.location = "#"; }
-        //     if (a == 2) { window.location = "http://napalmadamao.ifrn.edu.br/fisicainvertida/"; }
-        //     if (a == 3) { window.location = "http://koala.fisicainvertida.com/login"; }
-        //     if (a == 4) { window.location = "#"; }
-        // }
+        function Ancora(a)
+        {
+            if (a == 1) { window.location = "http://napalmadamao.ifrn.edu.br/objetos/matFracoes/aula01/index.html"; }
+            if (a == 2) { window.location = "http://napalmadamao.ifrn.edu.br/objetos/matAngulos/atividade01/index.html"; }
+            if (a == 3) { window.location = "http://napalmadamao.ifrn.edu.br/objetos/matBase/eixonumerico/index.html"; }
+            if (a == 4) { window.location = "http://napalmadamao.ifrn.edu.br/objetos/matExpressoes/aula01/index.html"; }
+            if (a == 11) { window.location = "http://napalmadamao.ifrn.edu.br/fisicainvertida/"; }
+            if (a == 12) { window.location = "#"; }
+        }
     </script>
 </body>
 </html>
