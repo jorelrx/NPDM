@@ -25,16 +25,17 @@ header h1 img{
 
 main{
     width: 96vw;
-    height: 90vh;
+    min-height: 90vh;
     background-color: #e5e5e5;
     margin: 2em auto;
     padding: 20vh 2em 0 2em;
     display: flex;
+    text-align: center;
 }
 
 h2{
     font-size: 2.5em;
-    margin: 0 0 1em 7em;
+    margin: 1em 3vw 1em 0;
     display: inline-block;
     padding: 0.8em;
     border-radius: 1em;
@@ -43,7 +44,7 @@ h2{
 
 main section{
     width: 65vw;
-    margin-left: 5em
+    margin-left: 5em;
 }
 
 main section div{
@@ -174,7 +175,7 @@ footer p{
     }
     
     .card{
-        width: 35vw;
+        width: 42vw;
     }
 }
 
@@ -182,7 +183,6 @@ footer p{
 {
     main section h2{
         margin-left: 0em;
-        height: 5em;
     }
 }
 
@@ -191,6 +191,22 @@ footer p{
     main section{
         margin: 1em;
     }
+
+    .card{
+        width: 85vw;
+    }
+
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 510px)
+{
+    header{
+        height: 20em;
+    }
 }
 
 @media screen and (max-width: 450px)
@@ -198,11 +214,6 @@ footer p{
     header{
         position: static;
         height: 20em;
-    }
-
-    footer{
-        display: flex;
-        flex-wrap: wrap;
     }
 }
 
